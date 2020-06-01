@@ -49,7 +49,7 @@ int main()
 	// using continue in loops
 	// it is used to skip an iteration if a particular condition is met
 	cout << "using continue in loops => ";
-	for(int i=0;i<size;i++)
+	for(int i =0;i<size;i++)
 	{
 		if(i == 2)
 		{
