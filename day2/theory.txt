@@ -1,0 +1,32 @@
+
+Suppose we have bunch of numbers in sorted order {5,9,23,67,89,102,123,127,150,172,189}
+If I want to search 172
+Naive way : traverse once and compare each element with key.This leads to O(n) Time complexity
+Another way : go to mid element and compare mid element with key. Repeat this process until key is found.This leads to O(logn) Time Complexity
+
+
+Why Time Complexity of BinarySearch logn?
+Length of array initially = n
+Length of array after 1st iteration = n/2
+Length of array after 2nd iteration = (n/2)/2
+.
+.
+.
+.
+.
+.
+.
+After x division , length of array becomes 1
+i.e n/(2^x) = 1
+
+n/(2^x) = 1
+n = 2^x
+Taking log on both sides
+log(n) = x * log(2)
+
+if base of log is 2 then
+x = log(n)
+
+So if we have 1million records then
+Naive Search takes = 10^6 = 1000000 computation to search a key
+Binary Search takes = log(10^6) = 6*log(10) = 6*3.321 ~ 18 computations to search a key
