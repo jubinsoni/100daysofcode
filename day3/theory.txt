@@ -1,0 +1,7 @@
+Unlike Array Linked List is not contigous memory.
+Each node contains address of the next node untill NULL is reached.
+
+
+How to detect cycle in linked list?
+Take a fast and a slow pointer and traverse the linked list.
+If there is a loop in the linked list hen they will have same value.
