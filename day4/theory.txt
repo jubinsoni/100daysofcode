@@ -1,0 +1,3 @@
+What is Doubly Linked List?
+=> Similar to Singly Linked List, Doubly Linked list has address stored for both next and previous node
+
