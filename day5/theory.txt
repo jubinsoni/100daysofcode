@@ -1,0 +1,10 @@
+what is Euclids algorithm?
+=> It is used to compute gcd of 2 numbers
+
+what is element uniqueness?
+=> determining whether there are duplicates among the given numbers
+
+In the code written function uniqElem() is oveloaded as with same function name different function
+get executed based on function argument
+
+function uniqElemViaHashing() uses templates where same code can be used for different datatype all together
