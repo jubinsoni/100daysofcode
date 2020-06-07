@@ -1,0 +1,6 @@
+floydWarshall algo is to find all pair shortest path
+It works on a principle that when you are going from i to j
+and you stumble on k in between and if (distance(i->k) + dist(k->j) < dist(i->j))
+then update the distance.
+
+This algo works for a directed weigted graph in O(V^3).
