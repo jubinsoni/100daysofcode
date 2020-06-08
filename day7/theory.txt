@@ -1,0 +1,8 @@
+What is a graph?
+=> graph is a data structure containing edges and vertex.
+
+what is bfs?
+=> bfs is a breadth first search where graph is explored level by level.
+
+what is dfs?
+=> dfs is depth first search of the graph where graph is explored till full depth.
