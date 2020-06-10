@@ -1,0 +1,13 @@
+what is Minheap? => 
+1)It is a binary tree where parent is smaller than child
+2)It is stored in an array
+
+what is heap sort? =>
+Heap sort is similar to selection sort
+where we find maximum element and place maximum element at the end
+arr[0] => root
+so root will be minimum value
+so like selection sort , we swap root with last element which
+will put smallest element at the end and now remaining array(n-1 elements or n-2 index)
+again has to be heapified in order to have minimum value again at the root
+repeat the process for enitre array
