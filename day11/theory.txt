@@ -1,0 +1,13 @@
+insertion => 
+1) increase heap_size = heap_size + 1
+2) assign key to last element
+3) heapify
+
+deletion =>
+1) copy root to last element
+2) Decrease size of headp
+3) heapify
+
+getMin()
+1) Do a minHeapify
+2) root element is minimum or arr[0]
