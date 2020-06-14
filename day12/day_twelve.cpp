@@ -1,5 +1,6 @@
 // Dijkstra's single source shortest path algorithm when cost is represented as  adjacency matrix 
 // Time complexity is O(V^2) and it doesn't work for graphs with negative weights
+// O(V) to find min and O(V) to iterate through vertex
 
 # include <iostream>
 # define V 9 
