@@ -1,20 +1,20 @@
 public class dayThirteen{
 
-	class Node
+	private class Node
 	{
 		int data;
 		Node next;
-		public Node(int data)
+		Node(int data)
 		{
 			this.data = data;
 			this.next = null;
 		}
 	}
 
-	public Node head = null;
-	public Node last = null;
+	private Node head = null;
+	private Node last = null;
 
-	public void addNode(int data)
+	private void addNode(int data)
 	{
 		Node newnode = new Node(data);
 		if(head == null)
@@ -29,7 +29,7 @@ public class dayThirteen{
 		}
 	}
 
-	public void createList()
+	private void createList()
 	{
 		for(int i=0;i<5;i++)
 		{
@@ -37,7 +37,7 @@ public class dayThirteen{
 		}
 	}
 
-	public void printList()
+	private void printList()
 	{
 		Node temp = head;
 
