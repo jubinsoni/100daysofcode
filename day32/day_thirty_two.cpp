@@ -97,7 +97,7 @@ int main()
 {
 	node* btree = createBtree();
 
-	cout << "heightOfTree => " << heightOfTree(btree) << endl;
+	cout << "heightOfTree => " << heightOfTree(btree)<< endl;
 
 	cout << "isBalanced => " << isBalanced(btree) << endl;
 
