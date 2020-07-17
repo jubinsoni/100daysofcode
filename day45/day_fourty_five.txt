@@ -1,0 +1,15 @@
+Theory Time : 
+
+Time complexity of some commonly used Data Structures:
+unordered_set => find,insert,delete => O(1)
+unordered_map(implemented as Hash Table) => find,insert,delete => O(1) Avg,O(n) worst (when collisions are more)
+map(implemented as Self balancing BST) => find,insert,delete => O(logn)
+hash tables => O(1) Avg, O(n) worst (when collisions are more)
+LinkedList,stack,queue => find => O(n), insert and delete(if element already found) => O(1)
+Array => find,insert,delete => O(n)
+
+Time complexity of some commonly of Sorting Techniques:
+Bubble,insertion,selection => O(n^2) for both avg and worst
+quickSort => O(nlogn)avg,O(n^2) in worst
+mergeSort => O(nlogn) for both avg and worst
+
