@@ -21,7 +21,7 @@ public:
 	int peek();
 	void pop();
 	bool isEmpty();
-	void popAllAndPrint(class Stack list);
+	void popAllAndPrint(class Stack &list);
 };
 
 void Stack::push(int val)
@@ -70,7 +70,7 @@ void Stack::pop()
 	temp->next = NULL;
 }
 
-void Stack::popAllAndPrint(class Stack list)
+void Stack::popAllAndPrint(class Stack &list)
 {
 	while(list.isEmpty() == false)
 	{
